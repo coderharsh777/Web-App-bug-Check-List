@@ -1,0 +1,22 @@
+Advanced Bugs:
+Cross-Site Scripting (XSS): Injection of malicious scripts into web pages, allowing attackers to execute scripts in the victim’s browser.
+Cross-Site Request Forgery (CSRF): Tricks a user into executing unwanted actions on a web application where they are authenticated.
+Insecure Direct Object References (IDOR): Access to objects (files, data) without proper authorization checks.
+Session Hijacking: Attackers steal session tokens, allowing them to impersonate a user.
+SQL Injection: Manipulation of SQL queries through user inputs to execute unauthorized commands or extract sensitive information.
+Unvalidated Input: Failure to validate user input can lead to various vulnerabilities like SQL injection, XSS, or buffer overflow.
+Broken Access Control: Poor access control policies that allow users to access unauthorized data or functionality.
+Authentication Bypass: Weak authentication mechanisms can allow attackers to bypass login screens or elevate privileges.
+Business Logic Vulnerabilities: Exploits in the logical flow of a web application, allowing attackers to manipulate legitimate functionality (e.g., shopping cart manipulation).
+Race Conditions: Occurs when multiple threads/processes access shared data at the same time, potentially causing unintended outcomes.
+Critical Bugs:
+Remote Code Execution (RCE): Attackers can execute arbitrary code on the server, potentially leading to a full system compromise.
+Server-Side Request Forgery (SSRF): The server makes unintended HTTP requests, potentially leading to internal services being compromised.
+Broken Authentication: Weak or missing authentication controls can lead to full compromise of user accounts.
+Buffer Overflow: An attacker can overflow the buffer, allowing them to crash the system or execute arbitrary code.
+Data Exposure and Leakage: Sensitive data such as passwords, credit card details, or personal information is improperly exposed due to misconfigurations.
+Denial of Service (DoS): Attackers can overwhelm the application, making it unavailable for legitimate users.
+Insecure Deserialization: The application deserializes data without proper validation, leading to code execution, privilege escalation, or data tampering.
+Security Misconfiguration: Default settings, outdated software, or incorrect permissions allow attackers to exploit vulnerabilities.
+Cross-Origin Resource Sharing (CORS) Misconfiguration: Allows unauthorized websites to access resources on a web application.
+Missing or Weak Encryption: Data is transmitted or stored without adequate encryption, leaving it vulnerable to interception or tampering.
